@@ -1,0 +1,34 @@
+.ChangeAlert-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1e1e1f50;
+    z-index: 2;
+}
+
+.ChangeAlert-container {
+    position: fixed;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    padding: 16px 34px 34px 34px;
+    background-color: #05030cd2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.ChangeAlert-container p {
+    color: antiquewhite;
+    font-size: larger;
+}
+
+.TodoForm-button {
+    background-color: #8bfaf1;
+    border-radius: 5px;
+    box-shadow: 1px 1px 13px -5px #9bfff7,
+                -1px -1px 13px -5px #9bfff7;
+}
